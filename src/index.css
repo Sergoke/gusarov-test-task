@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,83 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button, input, select, textarea {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-primary);
+}
+
+:root {
+    --text-xxs: 12px;
+    --text-xs: 13px;
+    --text-sm: 14px;
+    --text-md: 16px;
+    --text-lg: 18px;
+    --text-xl: 20px;
+
+    --spacing-xxs: 2px;
+    --spacing-xs: 4px;
+    --spacing-sm: 6px;
+    --spacing-md: 8px;
+    --spacing-lg: 12px;
+    --spacing-xl: 16px;
+
+    --radius-xs: 4px;
+
+    --text-placeholder: #70707B;
+    --text-quaternary: #70707B;
+
+    --fg-primary-900: #1A1A1E;
+}
+
+.color-scheme--light, .color-scheme--dark {
+    padding: 20px 100px;
+}
+
+.color-scheme--light {
+    --bg-primary: #FFF;
+
+    --text-primary: #1A1A1E;
+    --text-tertiary-600: #51525C;
+    --text-disabled: #D1D1D6;
+    --text-error-primary: #D92D20;
+
+    --border-primary: #D1D1D6;
+    --border-error: #FDA29B;
+    --border-brand: #84CAFF;
+
+    --utility-gray-50: #FAFAFA;
+    --utility-gray-200: #E4E4E7;
+    --utility-gray-700: #3F3F46;
+
+    --fg-quinary: #A0A0AB;
+    --fg-disabled: #D1D1D6;
+    --fg-error-primary: #D92D20;
+
+    background-color: var(--bg-primary);
+}
+
+.color-scheme--dark {
+    --bg-primary: #131316;
+
+    --text-primary: #FAFAFA;
+    --text-tertiary-600: #A0A0AB;
+    --text-disabled: #3F3F46;
+    --text-error-primary: #F97066;
+
+    --border-primary: #51525C;
+    --border-error: #F97066;
+    --border-brand: #53B1FD;
+
+    --utility-gray-50: #1A1A1E;
+    --utility-gray-200: #3F3F46;
+    --utility-gray-700: #D1D1D6;
+    ;
+
+    --fg-quinary: #70707B;
+    --fg-disabled: #70707B;
+    --fg-error-primary: #F04438;
+
+    background-color: var(--fg-primary-900);
 }

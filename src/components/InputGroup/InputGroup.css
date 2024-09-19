@@ -1,0 +1,12 @@
+.input-label-text-wrapper {
+    display: flex;
+}
+
+.input-label-text-wrapper.label-top {
+    flex-direction: column;
+}
+
+.input-label-text-wrapper.label-side {
+    flex-direction: row;
+    align-items: center;
+}

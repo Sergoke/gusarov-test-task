@@ -1,0 +1,46 @@
+.input-label-wrapper {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    margin-bottom: var(--spacing-xs);
+    color: var(--text-primary);
+    font-size: var(--text-xxs);
+}
+
+.input-label-wrapper.label-md {
+    line-height: 24px;
+    margin-bottom: var(--spacing-sm);
+    font-size: var(--text-sm);
+}
+
+.label-side .input-label-wrapper {
+    margin-right: 15px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.label-side .input-label-wrapper label {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.input-label-wrapper.disabled {
+    color: var(--text-quaternary);
+}
+
+.label-icon {
+    margin-left: var(--spacing-xs);
+    display: flex;
+}
+
+.required {
+    color: var(--fg-error-primary);
+    margin-left: var(--spacing-xs);
+    font-size: var(--text-xxs);
+}
+
+.input-label-wrapper.label-md .required {
+    font-size: var(--text-sm);
+}
